@@ -1,4 +1,4 @@
-const URI = "http://127.0.0.1:80";
+const URI = "ec2-3-122-233-210.eu-central-1.compute.amazonaws.com:88";
 
 async function getHinweis() {
     const raw_data = await fetch(URI + "/get_hinweis");
