@@ -1,4 +1,4 @@
-const URI = "http://52.29.40.202"
+const URI = "ec2-3-122-233-210.eu-central-1.compute.amazonaws.com:88"
 
 async function getTeam() {
     const raw_data = await fetch(URI + '/get_all_employees')
