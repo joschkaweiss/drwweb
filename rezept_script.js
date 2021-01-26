@@ -1,5 +1,4 @@
-const URI = "http://ec2-3-122-233-210.eu-central-1.compute.amazonaws.com:88";
-
+const URI = "https://cms.dr-weltike.de"
 async function getContact() {
     const raw_data = await fetch(URI + '/get_rezept')
     const json = await raw_data.json()
