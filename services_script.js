@@ -1,4 +1,4 @@
-const URI = "ec2-3-122-233-210.eu-central-1.compute.amazonaws.com:88"
+const URI = "http://ec2-3-122-233-210.eu-central-1.compute.amazonaws.com:88"
 
 async function getServices() {
     const raw_data = await fetch(URI + '/get_all_services')
